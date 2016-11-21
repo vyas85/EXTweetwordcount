@@ -26,11 +26,8 @@ histogram.py	ExTweetwordcount/
 wordcount.py	ExTweetwordcount/src/bolts/wordcount.py
 tweets.py	ExTweetwordcount/src/spouts/tweets.py
 
-
-###Architecture:
-
  
-###Instructions
+###Instructions -
 1.	Clone the repository named “EXTweetwordcount” using the command
 2.	Ensure that PostgreSQL is installed and running on the system
 3.	Create a database named “tcount” with username “postgresql” and password “pass”.
