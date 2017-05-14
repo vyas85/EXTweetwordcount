@@ -1,22 +1,22 @@
-#Real-Time Tweet Counts using Apache Storm
+# Real-Time Tweet Counts using Apache Storm
 
-###Description – 
+### Description – 
 The goal of this project is to capture a stream of tweets from twitter in real-time, split up these tweets into individual words and calculate a running count of the number of words that are being used in tweets in real-time.
 
-###Components – 
+### Components – 
 •	Message processing framework – Apache Storm
 •	Data store – PostgreSQL database
 
-###Environment - 
+### Environment - 
 •	Linux with Apache Storm installed (preferably on AWS)
 
-###Dependencies - 
+### Dependencies - 
 
 •	Install the following python packages using pip
 a.	Tweepy
 b.	Psycopg2
 
-###Directory and File Structure – 
+### Directory and File Structure – 
 
 Project Folder - EXTweetwordcount
 
@@ -27,7 +27,7 @@ wordcount.py	ExTweetwordcount/src/bolts/wordcount.py
 tweets.py	ExTweetwordcount/src/spouts/tweets.py
 
  
-###Instructions -
+### Instructions -
 1.	Clone the repository named “EXTweetwordcount” using the command
 2.	Ensure that PostgreSQL is installed and running on the system
 3.	Create a database named “tcount” with username “postgresql” and password “pass”.
